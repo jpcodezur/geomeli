@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/tutesisenlinea/module/Usuarios/view/usuarios/mensaje/new.phtml</file>
+            <file>file:/C:/xampp/htdocs/tutesisenlinea/module/Usuarios/src/Usuarios/MisClases/SendEmail.php</file>
+            <file>file:/C:/xampp/htdocs/tutesisenlinea/module/Usuarios/src/Usuarios/Controller/FormularioController.php</file>
+            <file>file:/C:/xampp/htdocs/tutesisenlinea/module/Usuarios/view/usuarios/formulario/wizard.phtml</file>
+            <file>file:/C:/xampp/htdocs/tutesisenlinea/module/Usuarios/src/Usuarios/Model/Entity/Mensaje.php</file>
+            <file>file:/C:/xampp/htdocs/tutesisenlinea/module/Usuarios/config/module.config.php</file>
+            <file>file:/C:/xampp/htdocs/tutesisenlinea/module/Usuarios/src/Usuarios/Model/Dao/FormularioEditDao.php</file>
+            <file>file:/C:/xampp/htdocs/tutesisenlinea/module/Usuarios/src/Usuarios/Model/Dao/MensajeDao.php</file>
+            <file>file:/C:/xampp/htdocs/tutesisenlinea/module/Usuarios/src/Usuarios/Controller/FormularioEditController.php</file>
+            <file>file:/C:/xampp/htdocs/tutesisenlinea/module/Usuarios/view/usuarios/usuario/profile.phtml</file>
+            <file>file:/C:/xampp/htdocs/tutesisenlinea/module/Usuarios/src/Usuarios/Model/Dao/FormularioDao.php</file>
+            <file>file:/C:/xampp/htdocs/tutesisenlinea/module/Usuarios/src/Usuarios/Controller/LoginController.php</file>
+            <file>file:/C:/xampp/htdocs/tutesisenlinea/module/Usuarios/view/usuarios/login/index.phtml</file>
+            <file>file:/C:/xampp/htdocs/tutesisenlinea/module/Usuarios/view/usuarios/login/registrarse.phtml</file>
+            <file>file:/C:/xampp/htdocs/tutesisenlinea/module/Usuarios/src/Usuarios/Controller/RespuestaController.php</file>
+            <file>file:/C:/xampp/htdocs/tutesisenlinea/module/Usuarios/src/Usuarios/Controller/UsuarioController.php</file>
+            <file>file:/C:/xampp/htdocs/tutesisenlinea/module/Usuarios/src/Usuarios/MisClases/AclListener.php</file>
+            <file>file:/C:/xampp/htdocs/tutesisenlinea/module/Usuarios/src/Usuarios/Controller/MensajeController.php</file>
+            <file>file:/C:/xampp/htdocs/tutesisenlinea/module/Usuarios/view/usuarios/login/recuperarpass.phtml</file>
+            <file>file:/C:/xampp/htdocs/tutesisenlinea/module/Application/view/layout/layout.phtml</file>
+            <file>file:/C:/xampp/htdocs/tutesisenlinea/module/Usuarios/src/Usuarios/Model/Dao/RespuestaDao.php</file>
+        </group>
+    </open-files>
+</project-private>

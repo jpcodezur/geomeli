@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4a1a5dc8-6a5d-49b7-8055-d9fc993231d1" name="Default" comment="" />
+    <ignored path="meli.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="meli" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="module.config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Usuarios/config/module.config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArticuloDao.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module/Usuarios/src/Usuarios/Model/Dao/ArticuloDao.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="150" column="8" selection-start-line="150" selection-start-column="8" selection-end-line="162" selection-end-column="9" />
+              <folding>
+                <marker date="1475492110397" expanded="true" signature="2311:2353" placeholder="SELECT DISTI... estados_publicacion" />
+                <marker date="1475492110397" expanded="true" signature="3044:3084" placeholder="SELECT COUNT... articulos" />
+                <marker date="1475492110397" expanded="true" signature="3463:3548" placeholder="SELECT * FRO... mapeo_categorias" />
+                <marker date="1475492110397" expanded="true" signature="11869:11923" placeholder="SELECT * FRO... articulos" />
+                <marker date="1475492110397" expanded="true" signature="13211:13409" placeholder="UPDATE artic... " />
+                <marker date="1475492110397" expanded="true" signature="13755:13973" placeholder="UPDATE artic... " />
+                <marker date="1475492110397" expanded="true" signature="16111:23104" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="16125:23092" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="16136:16512" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="16147:16500" placeholder="..." />
+                <marker date="1475492110397" expanded="false" signature="16243:16269" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="16270:16488" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="16287:16473" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="16301:16455" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="16523:21077" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="16534:21065" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="16604:21053" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="16621:21038" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="16635:21020" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="16667:21005" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="16740:20990" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="16760:20972" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="16777:17105" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="17122:20640" placeholder="..." />
+                <marker date="1475492110397" expanded="false" signature="17271:17345" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="17346:20498" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="17422:19243" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="17445:19222" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="17465:19038" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="17723:19017" placeholder="..." />
+                <marker date="1475492110397" expanded="false" signature="17751:17765" placeholder="..." />
+                <marker date="1475492110397" expanded="false" signature="17819:17849" placeholder="..." />
+                <marker date="1475492110397" expanded="false" signature="17903:18294" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="18295:18996" placeholder="..." />
+                <marker date="1475492110397" expanded="false" signature="18326:18361" placeholder="..." />
+                <marker date="1475492110397" expanded="false" signature="18450:18485" placeholder="..." />
+                <marker date="1475492110397" expanded="false" signature="18574:18609" placeholder="..." />
+                <marker date="1475492110397" expanded="false" signature="18706:18741" placeholder="..." />
+                <marker date="1475492110397" expanded="false" signature="18846:18881" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="19058:19198" placeholder="..." />
+                <marker date="1475492110397" expanded="false" signature="19269:19594" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="19595:20480" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="19674:20461" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="19697:20437" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="19717:20413" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="19749:19995" placeholder="..." />
+                <marker date="1475492110397" expanded="false" signature="19829:19864" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="20165:20392" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="20657:20951" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="21088:23077" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="21099:23065" placeholder="..." />
+                <marker date="1475492110397" expanded="false" signature="21195:21220" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="21221:23053" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="21238:23038" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="21252:21568" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="21582:22724" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="21621:22684" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="21694:22669" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="21714:22651" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="21798:22628" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="22738:23020" placeholder="..." />
+                <marker date="1475492110397" expanded="true" signature="23804:23863" placeholder="SELECT * FRO... categorias_ml" />
+                <marker date="1475492110397" expanded="true" signature="24496:24608" placeholder="INSERT INTO categorias_ml... " />
+                <marker date="1475492110397" expanded="true" signature="25165:25340" placeholder="INSERT INTO mapeo_categorias... " />
+                <marker date="1475492110397" expanded="true" signature="25378:25546" placeholder="UPDATE mapeo... " />
+                <marker date="1475492110397" expanded="true" signature="26020:26078" placeholder="SELECT * FRO... mapeo_categorias" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/ml/auth.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Auth.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Usuarios/src/Usuarios/MisClases/Auth.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="90" column="58" selection-start-line="0" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/module/Usuarios/config/module.config.php" />
+        <option value="$PROJECT_DIR$/module/Usuarios/src/Usuarios/MisClases/Auth.php" />
+        <option value="$PROJECT_DIR$/module/Usuarios/src/Usuarios/Model/Dao/ArticuloDao.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1612" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meli" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meli" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meli" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meli" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meli" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Usuarios" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meli" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meli" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Usuarios" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Usuarios" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meli" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meli" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Usuarios" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Usuarios" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dao" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meli" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meli" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Usuarios" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Usuarios" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meli" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meli" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Usuarios" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meli" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meli" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meli" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meli" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a1a5dc8-6a5d-49b7-8055-d9fc993231d1" name="Default" comment="" />
+      <created>1475486287991</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1475486287991</updated>
+      <workItem from="1475486289397" duration="3426000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3426000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1612" height="876" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32957393" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/ml/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Usuarios/src/Usuarios/MisClases/Auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="90" column="58" selection-start-line="0" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Usuarios/config/module.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Usuarios/src/Usuarios/Model/Dao/ArticuloDao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="150" column="8" selection-start-line="150" selection-start-column="8" selection-end-line="162" selection-end-column="9" />
+          <folding>
+            <marker date="1475492110397" expanded="true" signature="2311:2353" placeholder="SELECT DISTI... estados_publicacion" />
+            <marker date="1475492110397" expanded="true" signature="3044:3084" placeholder="SELECT COUNT... articulos" />
+            <marker date="1475492110397" expanded="true" signature="3463:3548" placeholder="SELECT * FRO... mapeo_categorias" />
+            <marker date="1475492110397" expanded="true" signature="11869:11923" placeholder="SELECT * FRO... articulos" />
+            <marker date="1475492110397" expanded="true" signature="13211:13409" placeholder="UPDATE artic... " />
+            <marker date="1475492110397" expanded="true" signature="13755:13973" placeholder="UPDATE artic... " />
+            <marker date="1475492110397" expanded="true" signature="16111:23104" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="16125:23092" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="16136:16512" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="16147:16500" placeholder="..." />
+            <marker date="1475492110397" expanded="false" signature="16243:16269" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="16270:16488" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="16287:16473" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="16301:16455" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="16523:21077" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="16534:21065" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="16604:21053" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="16621:21038" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="16635:21020" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="16667:21005" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="16740:20990" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="16760:20972" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="16777:17105" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="17122:20640" placeholder="..." />
+            <marker date="1475492110397" expanded="false" signature="17271:17345" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="17346:20498" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="17422:19243" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="17445:19222" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="17465:19038" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="17723:19017" placeholder="..." />
+            <marker date="1475492110397" expanded="false" signature="17751:17765" placeholder="..." />
+            <marker date="1475492110397" expanded="false" signature="17819:17849" placeholder="..." />
+            <marker date="1475492110397" expanded="false" signature="17903:18294" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="18295:18996" placeholder="..." />
+            <marker date="1475492110397" expanded="false" signature="18326:18361" placeholder="..." />
+            <marker date="1475492110397" expanded="false" signature="18450:18485" placeholder="..." />
+            <marker date="1475492110397" expanded="false" signature="18574:18609" placeholder="..." />
+            <marker date="1475492110397" expanded="false" signature="18706:18741" placeholder="..." />
+            <marker date="1475492110397" expanded="false" signature="18846:18881" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="19058:19198" placeholder="..." />
+            <marker date="1475492110397" expanded="false" signature="19269:19594" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="19595:20480" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="19674:20461" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="19697:20437" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="19717:20413" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="19749:19995" placeholder="..." />
+            <marker date="1475492110397" expanded="false" signature="19829:19864" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="20165:20392" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="20657:20951" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="21088:23077" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="21099:23065" placeholder="..." />
+            <marker date="1475492110397" expanded="false" signature="21195:21220" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="21221:23053" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="21238:23038" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="21252:21568" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="21582:22724" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="21621:22684" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="21694:22669" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="21714:22651" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="21798:22628" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="22738:23020" placeholder="..." />
+            <marker date="1475492110397" expanded="true" signature="23804:23863" placeholder="SELECT * FRO... categorias_ml" />
+            <marker date="1475492110397" expanded="true" signature="24496:24608" placeholder="INSERT INTO categorias_ml... " />
+            <marker date="1475492110397" expanded="true" signature="25165:25340" placeholder="INSERT INTO mapeo_categorias... " />
+            <marker date="1475492110397" expanded="true" signature="25378:25546" placeholder="UPDATE mapeo... " />
+            <marker date="1475492110397" expanded="true" signature="26020:26078" placeholder="SELECT * FRO... mapeo_categorias" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
