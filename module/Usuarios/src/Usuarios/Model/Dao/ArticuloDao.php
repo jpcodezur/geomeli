@@ -141,12 +141,13 @@ class ArticuloDao extends BaseDao implements IArticuloDao {
         $meli = new Meli($this->config["appId"], $this->config["key"], $_SESSION['access_token'], $_SESSION['refresh_token']);
 
         $articulo = array(
-            "price"=>(int)$pArticulo["price"],
-            "quantity" => $pArticulo["qty"],
+            "price"=>(int) $pArticulo["price"],
+            "quantity" => (int) $pArticulo["qty"],
             "listing_type_id" => "bronze",
         );
 
         $resp = $meli->post("items/".$pArticulo["ml_articulo_id"]."/relist",$articulo,$params);
+
 
         if($this->actualizarEstadoArticulo($pArticulo,$resp)){
             return (array(
@@ -461,7 +462,17 @@ class ArticuloDao extends BaseDao implements IArticuloDao {
 
         $sql = "UPDATE articulos SET estado='".$estado."', ml_articulo_id='".$resp->id."', permalink='".$resp->permalink."', date_created='".$resp->date_created."', last_updated='".$resp->last_updated."' WHERE id='".$articulo["id"]."'";
 
+
+
         $res = $this->adapter->query($sql);
+
+        /*echo "<pre>";
+        print_r(array(
+            "resp" => $resp,
+            "articulo" => $articulo,
+            "sql" => $sql,
+            "res" => $res,
+        ));die();*/
 
         if($res){
             $res->execute();
