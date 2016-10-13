@@ -143,7 +143,7 @@ class ArticuloDao extends BaseDao implements IArticuloDao {
         $articulo = array(
             "price"=>(int) $pArticulo["price"],
             "quantity" => (int) $pArticulo["qty"],
-            "listing_type_id" => "bronze",
+            "listing_type_id" => $this->config["listing_type"],
         );
 
         $resp = $meli->post("items/".$pArticulo["ml_articulo_id"]."/relist",$articulo,$params);
@@ -264,6 +264,7 @@ class ArticuloDao extends BaseDao implements IArticuloDao {
                 return (array(
                     "error" => $resp["body"]->error,
                     "message" => $resp["body"]->message,
+                    "resp" => $resp
                 ));
             }else{
                 //SUCCESS PUBLISH
@@ -308,6 +309,14 @@ class ArticuloDao extends BaseDao implements IArticuloDao {
         return $mensaje;
     }
 
+    public function getUserData(){
+        $params = array('access_token' => $_SESSION['access_token']);
+        $meli = new Meli($this->config["appId"], $this->config["key"], $_SESSION['access_token'], $_SESSION['refresh_token']);
+
+        $resp = $meli->get("/users/me",$params);
+
+    }
+
     public function publicarArticuloSendJson($pArticulo,$mapeo=null){
         $pArticulo = $pArticulo["articulo"];
         $articulo = $this->mapeoArticulo($pArticulo,$mapeo);
@@ -329,6 +338,7 @@ class ArticuloDao extends BaseDao implements IArticuloDao {
                 return (array(
                     "error" => $resp["body"]->error,
                     "message" => $resp["body"]->message,
+                    "resp" => $resp
                 ));
             }else{
                 //SUCCESS PUBLISH
@@ -369,22 +379,15 @@ class ArticuloDao extends BaseDao implements IArticuloDao {
 
     public function getArticulo($filtros){
         $this->adapter = $this->tableGateway->getAdapter();
-        $where = "";
-
         $articulos = array();
+        $where = " WHERE visibility='4' ";
 
         if($filtros["categorias"] && $filtros["categorias"] != "todas"){
-            $where = "WHERE categories='".$filtros["categorias"]."'";
+            $where .= "AND categories='".$filtros["categorias"]."'";
         }
 
         if($filtros["estado"]){
-            if($where){
-                $where .= " AND";
-            }else{
-                $where .= " WHERE";
-            }
-
-            $where .= " estado='".$filtros["estado"]."'";
+            $where .= " AND estado='".$filtros["estado"]."'";
         }
 
         $sql = "SELECT * FROM articulos $where ORDER BY id ASC LIMIT 1";
@@ -516,12 +519,12 @@ class ArticuloDao extends BaseDao implements IArticuloDao {
         $articulo = array(
             "title" => $articulo["name"],
             "category_id"=> $mapeo["categoria_ml"],
-            "price"=>$articulo["price"],
+            "official_store_id" => $this->config["store_id"],
             "price" => $articulo["price"],
             "currency_id" => "UYU",
             "available_quantity" => $articulo["qty"],
             "buying_mode" => "buy_it_now",
-            "listing_type_id" => "bronze",
+            "listing_type_id" => $this->config["listing_type"],
             "condition" => "new",
             "description" => $template,
             "video_id" => "",

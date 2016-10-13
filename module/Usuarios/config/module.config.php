@@ -24,10 +24,11 @@ return array(
 		'appId' => '8628636544666008',
 		//'key' => 'tK0FMoBMi0jlGeiz6BMRG4GmzopdWaYv'//este debe ser secret
 		'key' => 'CNexT25r1WdzDUEtQXmLMqVatXYibekG',
-		//'urlServidorImagenes' => '',
+		'store_id' => 439761375,
+        'listing_type' => "gold_premium",
         'authUrl' => 'https://geeksuy.com/meli/public/index.php/usuarios/index/mlAuth/',
 		'urlServidorImagenes' => 'https://s3.amazonaws.com/melifarmashop/',
-	        'extensionImagenes' => 'jpg'
+        'extensionImagenes' => 'jpg'
 	),
     'db' => array(
         'driver' =>'Pdo',
